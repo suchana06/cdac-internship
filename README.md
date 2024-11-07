@@ -52,3 +52,4 @@ Start the frontend server:
 ```bash
 npm start
 ```
+The frontend will run on http://localhost:3000
