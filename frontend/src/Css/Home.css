@@ -1,0 +1,29 @@
+.mCon {
+    height: 55vh;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex; 
+
+}
+
+.h-image {
+    margin-left: auto;
+}
+.h-image img {
+    width: 110%; /* Set image width to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.div1 {
+    overflow: visible;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 85vh;
+    border-radius: 2em;
+    margin-left: 1em;
+    background-color: #64e986;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }

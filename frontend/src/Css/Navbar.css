@@ -1,0 +1,55 @@
+body {
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 1em;
+  margin: 0.5% 1%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background-color: #92eda8;
+}
+
+#label {
+  font-size: xx-large;
+  padding: 0.5%;
+  font-weight: bolder;
+  text-shadow: 1.2px 0.5px 5.5px rgb(68, 63, 63);
+  margin-left: 1em;
+}
+
+#label:hover {
+  text-shadow: 1px 2px 1px rgba(3, 1, 19, 0.582);
+  cursor: pointer;
+}
+
+.nav-Links {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  padding: 0;
+}
+
+.navig a{
+  margin-right: 2em;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  text-shadow: 1.2px 0.5px 5.5px rgb(68, 63, 63);
+}
+
+.navig:hover {
+  color: #0810f6;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.navig u a{
+  text-decoration: none;
+}
+/* Add cursor pointer to the logout link */
+#logout {
+  cursor: pointer;
+  text-decoration: none;
+}

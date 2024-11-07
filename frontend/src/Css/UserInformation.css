@@ -1,0 +1,81 @@
+/* UserInformation.css */
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+    box-shadow: 5px 0px 20px 8px rgba(28, 28, 28, 0.314);
+    overflow-x: auto;
+}
+
+.user-table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.user-table td {
+    border: 1px solid #07060621;
+    padding: 5px;
+}
+
+.user-table th {
+    background-color: #30263a25;
+}
+
+.user-table tr:hover {
+    background-color: #dad5d54b;
+}
+
+
+.btn {
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: rgb(29, 61, 238);
+}
+.btn-delete {
+    background-color: rgb(239, 99, 99);
+}
+
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Center the search bar horizontally and vertically */
+.search-container {
+    margin-left: 100px;
+    display: flex;
+    box-shadow: 2px 0 9px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s ease;
+    background: linear-gradient(45deg, #f2c49ae9, #efefa8c3, #f5ef51c7);
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}

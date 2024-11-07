@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mainapp {
+    background: linear-gradient(
+      106.37deg,
+      #ffe1bc 29.63%,
+      #ffcfd1 51.53%,
+      #f3c6f1 90.85%
+    );
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    font-family: sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .AppGlass {
+    display: grid;
+    height: 90%; 
+    width: 95%; 
+    border-radius: 2rem;
+    background: linear-gradient(45deg, #f6cfcf, #e9e974, #89f8a5, #eaeecb);
+    overflow: hidden;
+    grid-template-columns: 11rem auto 20rem;
+    padding: 2rem;
+    margin: auto; 
+  }
+  
+  /* Update.css */
+.update-super-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.391);
+  padding: 70px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 000; /* Ensure it's above other elements */
+}
+
+.eye-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: #333; /* Change the color as needed */
+}
+
+.manage-profile-button{
+  background-color: #a0a8b6;
+  color: #0c0a0a;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+  font-weight: bold;
+}

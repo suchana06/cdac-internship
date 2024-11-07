@@ -1,0 +1,95 @@
+.App {
+    background-color: #64E986;
+    margin: 2% 20%;
+    padding: 2% 5%;
+    text-align: justify;
+    border-radius: 2em;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+label {
+    font-size: x-large;
+    font-family: 'Playfair Display', serif;
+}
+
+.but {
+    margin-top: 1em;
+    padding: 2%;
+    background-color: #266827;
+    color: white;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.but:hover {
+    background-color: rgb(85, 160, 101);
+}
+
+option {
+    cursor: pointer;
+}
+
+.option {
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 1%;
+    font-family: 'Playfair Display', serif;
+}
+#head{
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 2%;
+    border-radius: 30px;
+
+
+}
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-input {
+
+    /* flex-grow: 1; */
+    border: none;
+    padding: 1.9%;
+    font-size: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.search-button {
+
+    background-color: #266827;
+    color: white;
+    border: none;
+    padding: 1.9%;
+    cursor: pointer;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-right: 0.5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #64E986;
+    padding: 4% 2%;
+    text-align: center;
+    color: white;
+    border-radius: 2em;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   
+}

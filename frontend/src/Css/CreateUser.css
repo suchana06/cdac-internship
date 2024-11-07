@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 70%;
+  height: 80%;
+  margin: 80px auto;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 1.3);
+  
+}
+
+
+.registration-form-container {
+  flex: 1;
+  background-color: white;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+}
+
+.underlined-input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+  background-color: white;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.img {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.img img {
+  max-width: 70%;
+  height: auto;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.input-icon {
+  margin-right: 10px;
+}
+.underlined-input:focus {
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-group {
+  position: relative;
+}
+
+.underlined-input {
+  width: 100%;
+  padding-right: 30px; /* Adjust based on icon width */
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.password-toggle svg {
+  width: 20px;
+  height: 20px;
+}
